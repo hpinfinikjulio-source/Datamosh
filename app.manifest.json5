@@ -1,0 +1,24 @@
+{
+  name: "Datamosh",
+  command: "datamosh",
+  categories: ["video", "glitch", "art"],
+
+  about: "README.md",
+
+  width: 640,
+  height: 480,
+  inset: true,
+
+  encode: {
+    excludeAcceptAllOption: true,
+    types: [
+      {
+        accept: {
+          "video/webm": [".webm"],
+        },
+      },
+    ],
+  },
+
+  document: "./index.html",
+}
